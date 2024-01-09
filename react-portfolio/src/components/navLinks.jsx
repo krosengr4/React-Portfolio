@@ -1,11 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
+import '../App.css'
+
 
 // Using object destructuring to get our variables from the prop object
 function NavLinks() {
     const currentPage = useLocation().pathname;
     
     return (
-        <ul className='nav nav-links'>
+        <ul className='nav-links'>
             {/* homepage link */}
             <li className='nav-item'>
                 <Link

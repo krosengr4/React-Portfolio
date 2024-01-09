@@ -41,12 +41,20 @@
   color: #888;
 }
 
-.aboutme-title {
+.nav-links{
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  
+}
+
+.page-title {
   font-size: 52px;
 }
 
 .aboutme-content {
-  font-size: 24px;
+  font-size: 20px;
   position: relative;
 
 }
@@ -58,14 +66,14 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 500px;
+  top: 250px;
 }
 
 .likeBtn {
-  padding: 5px;
+  padding: 12px;
   color: rgb(49, 119, 65);
   background-color: rgb(29, 29, 81);
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .likeBtn:hover {
@@ -74,10 +82,10 @@
 }
 
 .dislikeBtn {
-  padding: 5px;
+  padding: 12px;
   color: rgb(49, 119, 65);
   background-color: rgb(29, 29, 81);
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .dislikeBtn:hover {
@@ -86,7 +94,7 @@
 }
 
 .counter-status{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
