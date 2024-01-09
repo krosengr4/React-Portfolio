@@ -7,7 +7,7 @@ export default function AboutMe() {
   const [count, setCount] = useState(0)
 
     return (
-      <div>
+      <div className="main-div">
         <h1 className="page-title">About Me: </h1>
         <p className="aboutme-content">
                         Howdy! I am Kevin Rosengren, a 23 year old Texan native who loves technology and programming. Both of my 
