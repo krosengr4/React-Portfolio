@@ -4,23 +4,26 @@ import '../App.css'
 
 export default function AboutMe() {
 
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(578)
 
     return (
       <div>
-        <h1>About Page</h1>
-        <p>
-          This is where the about me page will go.
+        <h1 className="aboutme-title">About Page</h1>
+        <p className="aboutme-content">
+          This is where the about me page will go. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. 
+          Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+          Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+          Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
         </p>
 
         <div className="like-dislikeBtn">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button className='likeBtn' onClick={() => setCount((count) => count + 1)}>
           I like this! 
         </button>
 
-        <h3> Current status: {count} likes/dislikes </h3> 
+        <h3 className="counter-status"> Current status: {count} likes/dislikes </h3> 
 
-        <button onClick={() => setCount((count) => count - 1)}>
+        <button className='dislikeBtn'onClick={() => setCount((count) => count - 1)}>
           I dislike this!  
         </button>
        </div>

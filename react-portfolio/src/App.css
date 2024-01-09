@@ -41,10 +41,52 @@
   color: #888;
 }
 
+.aboutme-title {
+  font-size: 52px;
+}
+
+.aboutme-content {
+  font-size: 24px;
+  position: relative;
+
+}
+
 .like-dislikeBtn {
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  top: 500px;
 }
+
+.likeBtn {
+  padding: 5px;
+  color: rgb(49, 119, 65);
+  background-color: rgb(29, 29, 81);
+  font-size: 12px;
+}
+
+.likeBtn:hover {
+  color: rgb(0, 0, 0);
+  background-color: lightgreen;
+}
+
+.dislikeBtn {
+  padding: 5px;
+  color: rgb(49, 119, 65);
+  background-color: rgb(29, 29, 81);
+  font-size: 12px;
+}
+
+.dislikeBtn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(175, 34, 15);
+}
+
+.counter-status{
+  font-size: 18px;
+}
+
+
