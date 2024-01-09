@@ -57,6 +57,7 @@
 /*  */
 .page-title {
   font-size: 52px;
+  text-decoration: underline;
 }
 
 .aboutme-content {
@@ -89,7 +90,7 @@
 
 .dislikeBtn {
   padding: 12px;
-  color: rgb(49, 119, 65);
+  color: rgb(145, 36, 3);
   background-color: rgb(29, 29, 81);
   font-size: 18px;
 }
