@@ -1,3 +1,6 @@
+// import css
+import '../App.css'
+
 export default function Resume() {
     return (
       <div className="main-div">

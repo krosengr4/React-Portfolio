@@ -1,4 +1,6 @@
+// import use state
 import { useState } from "react";
+// import css
 import '../App.css'
 
 

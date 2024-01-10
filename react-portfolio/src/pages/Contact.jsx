@@ -1,3 +1,6 @@
+// import css
+import '../App.css'
+
 export default function Contact() {
     return (
       <div className="main-div">
