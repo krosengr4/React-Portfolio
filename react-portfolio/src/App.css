@@ -41,7 +41,7 @@
   color: #888;
 }
 
-/* Navigation Links / Nav bar */
+/** Navigation Links / Nav bar */
 .nav-links{
   font-size: 40px;
   display: flex;
@@ -72,6 +72,11 @@
   font-size: 18px;
   position: relative;
   bottom: 25px;
+}
+
+hr {
+  position: relative;
+  bottom: 12px;
 }
 
 /** Start of about me page */
@@ -120,14 +125,12 @@
 }
 
 /** Start of Portfolio page */
-
 .projects-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
-    bottom: 35px    
+    position: relative;   
 }
 
 .top-project {
