@@ -68,7 +68,13 @@
   /* text-decoration: underline; */
 }
 
-/* Start of about me page */
+.description-tag {
+  font-size: 18px;
+  position: relative;
+  bottom: 25px;
+}
+
+/** Start of about me page */
 .aboutme-content {
   font-size: 20px;
   position: relative;
@@ -113,14 +119,7 @@
   font-size: 20px;
 }
 
-/* Start of Portfolio page */
-
-hr {
-  position: relative;
-  bottom: 30px;
-  /* height: 20px; */
-  /* color: #750a0a; */
-}
+/** Start of Portfolio page */
 
 .projects-container {
     display: flex;

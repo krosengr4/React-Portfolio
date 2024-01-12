@@ -4,7 +4,8 @@ import '../App.css'
 export default function Resume() {
     return (
       <div className="main-div">
-        <h1 className="page-title">Resume: </h1>
+        <h1 className="page-title">Resume</h1>
+        <p className='description-tag'>Below you can download my Web-Development Resume</p>
         <hr></hr>
         <p className="aboutme-content">
         This is where your resume will go. Just like portfolio with clickable pictures that 

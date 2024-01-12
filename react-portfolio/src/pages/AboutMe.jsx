@@ -10,7 +10,7 @@ export default function AboutMe() {
 
     return (
       <div className="main-div">
-        <h1 className="page-title">About Me: </h1>
+        <h1 className="page-title">About Me </h1>
         <hr></hr>
         <p className="aboutme-content">
                         Howdy! I am Kevin Rosengren, a 23 year old Texan native who loves technology and programming. Both of my 
