@@ -124,9 +124,6 @@
 }
 
 .btm-picture-btn {
-  display: flex;
-  justify-content: center;
-  
   display: block;
   margin: 12px;
   max-width: 20%;
@@ -135,4 +132,18 @@
   border-color: rgb(30 30 77);
 }
 
+.left-project{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.right-project {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  position: relative;
+  bottom: 433px;
+}
 
