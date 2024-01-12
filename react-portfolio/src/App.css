@@ -67,6 +67,7 @@
   text-decoration-line: bold;
 }
 
+/* Start of about me page */
 .aboutme-content {
   font-size: 20px;
   position: relative;
@@ -109,6 +110,29 @@
 
 .counter-status{
   font-size: 20px;
+}
+
+/* Start of Portfolio page */
+.picture-btn {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 12px;
+  max-width: 40%;
+  border-style: ridge;
+  border-width: 32px;
+  border-color: rgb(30 30 77);     
+}
+
+.btm-picture-btn {
+  display: flex;
+  justify-content: center;
+  
+  display: block;
+  margin: 12px;
+  max-width: 20%;
+  border-style: ridge;
+  border-width: 32px;
+  border-color: rgb(30 30 77);
 }
 
 
