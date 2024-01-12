@@ -80,10 +80,17 @@ hr {
 }
 
 /** Start of about me page */
+
 .aboutme-content {
   font-size: 20px;
   position: relative;
+}
 
+.pic-of-me {
+  width: 18%;
+  padding: 12px;
+  background-color: rgb(77, 150, 170);
+  border-radius: 30px;
 }
 
 .like-dislikeBtn {
@@ -125,6 +132,7 @@ hr {
 }
 
 /** Start of Portfolio page */
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -232,5 +240,4 @@ hr {
   opacity: .85;
   width: 30%;
   height: 23%;
-
 }
