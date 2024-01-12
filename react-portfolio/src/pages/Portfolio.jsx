@@ -4,8 +4,8 @@ import '../App.css'
 export default function Portfolio() {
     return (
     <div className="main-div">
-        <h1 className="page-title">Portfolio: </h1>
-    
+        <h1 className="page-title">My Portfolio: </h1>
+        <hr></hr>
     <section className='projects-container'>
         <a className='top-project' href='https://lmansilla92.github.io/rooster-tail/'>
             <img className='project-img' src='./public/Rooster-Tail.png' alt='Clickable image of my project'></img>

@@ -65,7 +65,7 @@
 /* Controls all h1's for each page */
 .page-title {
   font-size: 68px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* Start of about me page */
@@ -114,6 +114,14 @@
 }
 
 /* Start of Portfolio page */
+
+hr {
+  position: relative;
+  bottom: 30px;
+  /* height: 20px; */
+  /* color: #750a0a; */
+}
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;

@@ -4,10 +4,9 @@ import '../App.css'
 export default function Home() {
     return (
       <div className="main-div">
-        <h1 className="page-title">HomePage: </h1>
-        <p className="aboutme-content">
-        This is the home landing page for your react portfolio.
-        </p>
+        <h1 className="page-title">Kevin Rosengren </h1>
+        <p className='home-p'>Professional Portfolio Built with React!</p>
+        <hr></hr>
       </div>
     );
   }
