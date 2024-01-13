@@ -182,13 +182,15 @@ hr {
   font-size: 50px;
   position: relative;
   top: 58px;
-  color: rgb(2, 72, 100);
+  color: rgb(255, 255, 255);
 }
 
 .small-project-label {
   font-size: 35px;
   position: relative;
   top: 35px;
+  color: rgb(255, 255, 255);
+
 }
 
 .overlay {
