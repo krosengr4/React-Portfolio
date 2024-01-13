@@ -27,7 +27,7 @@ export default function AboutMe() {
           I like this! 
         </button>
 
-        <h3 className="counter-status"> Total: {count}</h3> 
+        <h3 className="counter-status">__Total: {count}__</h3> 
 
         <button className='dislikeBtn'onClick={() => setCount((count) => count - 1)}>
           I dislike this!  

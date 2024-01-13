@@ -117,17 +117,15 @@ hr {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
   position: relative;
-  top: 250px;
+  top: 120px;
 }
 
 .likeBtn {
-  padding: 12px;
+  padding: 22px;
   color: rgb(49, 119, 65);
   background-color: rgb(29, 29, 81);
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .likeBtn:hover {
@@ -136,10 +134,10 @@ hr {
 }
 
 .dislikeBtn {
-  padding: 12px;
+  padding: 22px;
   color: rgb(145, 36, 3);
   background-color: rgb(29, 29, 81);
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .dislikeBtn:hover {
@@ -148,11 +146,12 @@ hr {
 }
 
 .counter-status{
-  font-size: 20px;
+  font-size: 34px;
+  text-decoration: underline;
+
 }
 
 /** Start of Portfolio page */
-
 .projects-container {
     display: flex;
     flex-wrap: wrap;
