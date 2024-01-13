@@ -5,7 +5,7 @@
 
 // import outlet and Nav from components folder
 import { Outlet } from 'react-router-dom';
-import Nav from './components/navLinks';
+import Nav from './components/header';
 
 function App () {
   return (

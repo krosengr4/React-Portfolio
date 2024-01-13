@@ -8,21 +8,12 @@ function NavLinks() {
     
     return (
         <ul className='nav-links'>
-            {/* homepage link */}
+            {/* homepage/aboutMe link */}
             <li className='nav-item'>
                 <Link
                     to="/"
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                >
-                Home
-                </Link>
-            </li>
-            {/* AboutMe page link */}
-            <li className='nav-item'>
-                <Link
-                    to="/AboutMe"
 
-                    className={currentPage === '/AboutMe' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                     >
                 About Me
                 </Link>

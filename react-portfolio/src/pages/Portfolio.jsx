@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
     <div className="main-div">
         <h1 className="page-title">My Portfolio </h1>
-        <p className='description-tag'>Here are a few of the projects that I have created!</p>
+        <p className='description-tag'>Below are a few of the projects that I have created or helped create!</p>
         <hr></hr>
     <section className='projects-container'>
         <a className='top-project' href='https://lmansilla92.github.io/rooster-tail/'>
