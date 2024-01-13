@@ -14,8 +14,8 @@ function App () {
       <Nav />
       <main className='mx-3'>
       <Outlet /> 
-      </main>
       <Footer />
+      </main>
     </>
   );
 }

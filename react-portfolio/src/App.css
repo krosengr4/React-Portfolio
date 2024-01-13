@@ -148,10 +148,10 @@ hr {
 .counter-status{
   font-size: 34px;
   text-decoration: underline;
-
 }
 
 /** Start of Portfolio page */
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -261,4 +261,59 @@ hr {
   opacity: .85;
   width: 30%;
   height: 23%;
+}
+
+/** Start of Contact Me page */
+
+.email-form {
+  display: flex;
+  position: relative;
+  top: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.formName-input {
+  width: 50%;
+  height: 36px;
+  font-size: 18px;
+
+}
+
+.formEmail-input {
+  width: 50%;
+  height: 36px;
+  font-size: 18px;
+
+  /* margin: 30px; */
+
+}
+
+.formMessage-input {
+  width: 50%;
+  height: 300px;
+  font-size: 18px;
+
+  /* margin: 30px; */
+}
+
+.formSubmit-button {
+  margin: 50px;
+  height: 38px;
+  width: 15%;
+  font-size: 18px;
+  position: relative;
+  left: 174px;
+}
+
+.formSubmit-button:hover {
+  color: rgb(0, 0, 0);
+  background-color: lightgreen;
+}
+
+.form-titles {
+  text-decoration: underline;
+  font-size: 36px;
 }
