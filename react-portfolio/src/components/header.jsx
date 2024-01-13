@@ -7,6 +7,9 @@ function NavLinks() {
     const currentPage = useLocation().pathname;
     
     return (
+        <div className='header'>
+        <h1 className='my-name'>Kevin Rosengren</h1>
+        <p className='header-tag'>React Portfolio</p>
         <ul className='nav-links'>
             {/* homepage/aboutMe link */}
             <li className='nav-item'>
@@ -21,37 +24,26 @@ function NavLinks() {
 
             {/* Portfolio page link */}
             <li className='nav-item'>
-                <Link
-                    to="/Portfolio"
-
-                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
-                    >
+                <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
                 My Portfolio
                 </Link>
-                </li>
+            </li>
 
                 {/* Contact page link */}
-                <li className='nav-item'>
-                <Link
-                    to="/Contact"
-
-                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                    >
+            <li className='nav-item'>
+                <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
                 Contact Me 
                 </Link>
-                </li>
+            </li>
 
                 {/* Resume page link */}
-                <li className='nav-item'>
-                <Link
-                    to="/Resume"
-
-                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-                    >
+            <li className='nav-item'>
+                <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
                 Resume
                 </Link>
-                </li>
+            </li>
         </ul>
+    </div>
     );
 }
 
