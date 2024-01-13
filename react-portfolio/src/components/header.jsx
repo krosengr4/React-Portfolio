@@ -1,11 +1,15 @@
+//! This file contains the react component for the applications header
+
+// import Link to link to our pages 
+// useLocation to determine if nav-link is active or not
 import { Link, useLocation } from 'react-router-dom';
+// import css
 import '../App.css'
 
 
 // Using object destructuring to get our variables from the prop object
 function NavLinks() {
     const currentPage = useLocation().pathname;
-    
     return (
         <div className='header'>
         <h1 className='my-name'>Kevin Rosengren</h1>
@@ -13,16 +17,12 @@ function NavLinks() {
         <ul className='nav-links'>
             {/* homepage/aboutMe link */}
             <li className='nav-item'>
-                <Link
-                    to="/"
-
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                    >
+                <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
                 About Me
                 </Link>
             </li>
 
-            {/* Portfolio page link */}
+                {/* Portfolio page link */}
             <li className='nav-item'>
                 <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
                 My Portfolio

@@ -6,6 +6,7 @@
 // import outlet and Nav from components folder
 import { Outlet } from 'react-router-dom';
 import Nav from './components/header';
+import Footer from './components/footer';
 
 function App () {
   return (
@@ -14,6 +15,7 @@ function App () {
       <main className='mx-3'>
       <Outlet /> 
       </main>
+      <Footer />
     </>
   );
 }
