@@ -74,6 +74,11 @@ export default function Contact() {
           <button className="formSubmit-button" onClick={handleFormSubmit}>Submit Your Message</button>
         </form>
 
+        {/* Error message */}
+        <section className='btm-error-message'>
+          <p>{errorMessage}</p>
+        </section>
+
 
       </div>
     );

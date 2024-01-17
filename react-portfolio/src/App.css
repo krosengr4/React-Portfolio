@@ -274,6 +274,7 @@ hr {
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: center;
+  bottom: 46px;
 }
 
 .formName-input {
@@ -301,12 +302,13 @@ hr {
 }
 
 .formSubmit-button {
-  margin: 50px;
+  margin: 14px;
   height: 38px;
   width: 15%;
   font-size: 18px;
+  /* align-items: center; */
   position: relative;
-  left: 174px;
+  left: 165px;
 }
 
 .formSubmit-button:hover {
@@ -316,12 +318,21 @@ hr {
 
 .form-titles {
   text-decoration: underline;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .error-message {
-  font-size: 28px;
+  font-size: 22px;
+  text-decoration: underline;
   color: rgb(173, 29, 29);
+}
+.btm-error-message {
+  font-size: 22px;
+  text-decoration: underline;
+  color: rgb(173, 29, 29);
+  position: relative;
+    bottom: 50px;
+    right: 50px;
 }
 
 /* * Start of the Resume page */
