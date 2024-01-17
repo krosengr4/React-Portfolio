@@ -63,7 +63,7 @@ export default function Contact() {
         </section>
 
         {/* Form needs to have inputs for name, email, and message */}
-        <form className='email-form' on onSubmit={''}>
+        <form className='email-form'>
           <h2 className='form-titles'>Name: </h2>
           <input name='userName' value={userName} type='text' placeholder='Please provide your name here' className='formName-input' onChange={handleInputChange} ></input>
 
