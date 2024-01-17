@@ -1,6 +1,9 @@
+//! This file contains the code for the Contact page. Css not kept here.
+
 // import css
 import '../App.css'
 
+// export Contact function that returns the Contact Me page html
 export default function Contact() {
     return (
       <div className="main-div">

@@ -1,6 +1,9 @@
+//! This file contains the code for the Resume page. Css not kept here.
+
 // import css
 import '../App.css'
 
+// export Resume function that returns the Resume page html
 export default function Resume() {
     return (
       <div className="main-div">
@@ -15,3 +18,4 @@ export default function Resume() {
       </div>
     );
   }
+  

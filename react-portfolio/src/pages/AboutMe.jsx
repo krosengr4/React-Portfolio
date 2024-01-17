@@ -1,11 +1,12 @@
+//! This file contains the code for the AboutMe page. Css not kept here.
+
 // import use state
 import { useState } from "react";
 // import css
 import '../App.css'
 
-
+// export AboutMe function that returns the AboutMe page html
 export default function AboutMe() {
-
   const [count, setCount] = useState(0)
 
     return (

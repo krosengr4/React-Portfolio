@@ -1,6 +1,9 @@
+//! This file contains the code for the Portfolio page. Css not kept here.
+
 // import css
 import '../App.css'
 
+// export Portfolio function that returns the portfolio page html
 export default function Portfolio() {
     return (
     <div className="main-div">

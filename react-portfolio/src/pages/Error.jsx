@@ -1,3 +1,5 @@
+//! This file contains the code for the Error page if errors occur.
+
 import { useRouteError } from 'react-router-dom';
 
 export default function ErrorPage() {
