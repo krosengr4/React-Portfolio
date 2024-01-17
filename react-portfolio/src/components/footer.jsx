@@ -1,16 +1,38 @@
 //! This file contains the react component for the applications footer
 
-// import link and useLocation
+// import css, link use location, and icons
+import { VscGithubAlt } from 'react-icons/vsc';
 import { Link, useLocation } from 'react-router-dom';
-// import css
+import { FaInstagram } from 'react-icons/fa';
+import { AiOutlineLinkedin } from 'react-icons/ai';
 import '../App.css'
 
 function footer() {
     return(
-    <div className='footer'>
-        <p> This is where the footer will go.</p>
-        <p> Github icon that goes to github/krosengr4</p>
+    <footer className='footer'>
+    <h3 className='made-by'> Made by Kevin Rosengren</h3>
+    
+    <div className='footer-div'>
+        <a href='https://github.com/krosengr4'>
+            <li className='logo'>
+                <VscGithubAlt />
+            </li>
+        </a>
+        <a href='https://linkedin.com'>
+            <li className='logo'>
+                <AiOutlineLinkedin />
+            </li>
+        </a>
+        <a href='https://instagram.com/kevinr_4'>
+            <li className='logo'>
+                <FaInstagram />
+            </li>
+        </a>
     </div>
+
+    </footer>
+    
+    
     );
 }
 
