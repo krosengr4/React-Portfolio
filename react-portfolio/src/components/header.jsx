@@ -12,7 +12,9 @@ function NavLinks() {
     const currentPage = useLocation().pathname;
     return (
         <div className='header'>
+        <Link to='/'>
         <h1 className='my-name'>Kevin Rosengren</h1>
+        </Link>
         <p className='header-tag'>React Portfolio</p>
         <ul className='nav-links'>
             {/* homepage/aboutMe link */}
