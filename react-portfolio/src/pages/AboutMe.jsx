@@ -12,6 +12,7 @@ export default function AboutMe() {
     return (
       <div className="main-div">
         <h1 className="page-title">About Me </h1>
+        <p className="description-tag">A little bit more about myself: </p>
         <hr></hr>
 
         <img src="/Pic-of-me.jpg" className="pic-of-me" alt="Picture of Kevin Rosengren"></img>
@@ -23,7 +24,7 @@ export default function AboutMe() {
             and getting outdoors whenever I can. I am curious, excited, and determined to make web developement and programming a career.
         </p>
 
-        <div className="like-dislikeBtn">
+        {/* <div className="like-dislikeBtn">
         <button className='likeBtn' onClick={() => setCount((count) => count + 1)}>
           I like this! 
         </button>
@@ -33,7 +34,7 @@ export default function AboutMe() {
         <button className='dislikeBtn'onClick={() => setCount((count) => count - 1)}>
           I dislike this!  
         </button>
-       </div>
+       </div> */}
       </div>
     );
   }
