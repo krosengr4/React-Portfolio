@@ -278,15 +278,15 @@ hr {
 
 .formName-input {
   width: 50%;
-  height: 36px;
-  font-size: 18px;
+  height: 28px;
+  font-size: 14px;
 
 }
 
 .formEmail-input {
   width: 50%;
-  height: 36px;
-  font-size: 18px;
+  height: 28px;
+  font-size: 14px;
 
   /* margin: 30px; */
 
@@ -322,4 +322,23 @@ hr {
 .error-message {
   font-size: 28px;
   color: rgb(173, 29, 29);
+}
+
+/* * Start of the Resume page */
+
+.resume-content {
+  font-size: 24px;
+  text-decoration: underline;
+}
+.download-section {
+  display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.download-logo {
+  display: flex;
+  width: 90px;
+  height: 100px;
+  color: white;
 }
