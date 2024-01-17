@@ -2,7 +2,6 @@
 
 // import css, link use location, and icons
 import { VscGithubAlt } from 'react-icons/vsc';
-import { Link, useLocation } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import '../App.css'
