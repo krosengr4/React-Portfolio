@@ -45,12 +45,10 @@ export default function Contact() {
     setUserName('');
     setEmail('');
     setMessage('');
-  }
+    setErrorMessage('');
+  };
 
 
-  
-  
-  
   return (
     <div className="main-div">
           <h1 className="page-title">Contact Me </h1>
@@ -71,7 +69,7 @@ export default function Contact() {
           <input name='email' value={email} type='text' placeholder='Please provide your email here. (Must be valid!)' className='formEmail-input' onChange={handleInputChange}></input>
 
           <h2 className='form-titles'>Message: </h2>
-          <input name='message' value={message} type='text' placeholder='Please provide your message here' className='formMessage-input' onChange={handleInputChange}></input>
+          <textarea name='message' value={message} type='text' placeholder='Please provide your message here' className='formMessage-input' onChange={handleInputChange}></textarea>
 
           <button className="formSubmit-button" onClick={handleFormSubmit}>Submit Your Message</button>
         </form>

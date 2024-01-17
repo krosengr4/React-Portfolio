@@ -47,7 +47,7 @@
 .header {
   background-color: rgb(133, 95, 113);
   position: relative;
-  bottom: 60px;
+  bottom: 80px;
 }
 
 .my-name {
@@ -79,7 +79,7 @@
   background-color: rgb(58, 50, 110);
   height: 1200px;
   position: relative;
-  bottom: 65px;
+  bottom: 100px;
 }
 
 /* Controls all h1's for each page */
@@ -270,7 +270,6 @@ hr {
 .email-form {
   display: flex;
   position: relative;
-  top: 15px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
